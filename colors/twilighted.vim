@@ -1,6 +1,6 @@
 " Author: Neal Milstein - neal dot milstein at gmail dot com
 " URL: http://www.vim.org/scripts/script.php?script_id=3436
-" Modifier: Brent Lintner - tweaked colours based on:
+" Modifier: Brent Lintner - tweaked colours to better handle transparent bg
 
 set background=dark
 if version > 580
