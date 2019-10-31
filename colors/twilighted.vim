@@ -278,6 +278,16 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
     call <SID>X("Error", "602020", "", "")
     call <SID>X("Todo", "666666", "eeee00", "")
 
+    " CoC stuff
+    "call <SID>X("CocWarningLine", "666666", "eeee00", "")
+    "call <SID>X("CocErrorLine", "666666", "eeee00", "")
+   " call <SID>X("CocHintLine", "666666", "eeee00", "")
+   " call <SID>X("CocInfoLine", "666666", "eeee00", "")
+   " call <SID>X("CocSelectedLine", "666666", "eeee00", "")
+    call <SID>X("CocInfoFloat", "CCCCCC", "", "")
+    call <SID>X("CocWarningFloat", "CCCCCC", "", "")
+    call <SID>X("CocErrorFloat", "CCCCCC", "", "")
+
     if version >= 700
         call <SID>X("CursorLine", "262626", "", "none")
         call <SID>X("CursorColumn", "262626", "", "none")
