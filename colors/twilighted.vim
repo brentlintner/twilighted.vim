@@ -250,6 +250,7 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
     call <SID>X("StatusLineNC", "606060", "", "none,underline")
     call <SID>X("Title", "d08356", "", "underline")
     call <SID>X("Visual", "404040", "f0f0f0", "reverse")
+    call <SID>X("SignColumn", "f0f0f0", "404040", "")
     "VisualNOS
     "call <SID>X("WarningMsg", "fa8072", "", "")
     "WildMenu
@@ -289,9 +290,9 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
     call <SID>X("CocErrorFloat", "FFFFFF", "", "")
 
     if version >= 700
-        call <SID>X("CursorLine", "262626", "", "none")
-        call <SID>X("CursorColumn", "262626", "", "none")
-        call <SID>X("CursorLine", "fffedc", "", "none")
+      call <SID>X("CursorLine", "262626", "", "none")
+      call <SID>X("CursorColumn", "262626", "", "none")
+      call <SID>X("CursorLine", "fffedc", "", "none")
 
 "      "Tabpages
       hi TabLine guifg=#a09998 guibg=#202020 gui=underline
