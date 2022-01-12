@@ -300,8 +300,8 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
       hi TabLineSel guifg=#a09998 guibg=#404850 gui=underline
 "
 "      "P-Menu (auto-completion)
-      hi Pmenu guifg=#605958 guibg=#303030 gui=underline
-      hi PmenuSel guifg=#a09998 guibg=#404040 gui=underline
+      hi Pmenu guifg=#605958 ctermbg=darkgray guibg=#303030 gui=underline
+      hi PmenuSel guifg=#a09998 ctermbg=gray guibg=#404040 gui=underline
     endif
 
     " delete functions {{{
